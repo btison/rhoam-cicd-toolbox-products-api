@@ -1,0 +1,27 @@
+{
+    "system-name": "products-v1",
+    "product-name": "Products API V1",
+    "backend-name": "Products API Backend V1",
+    "public-basepath": "/v1",
+    "private-base-url": "https://products-api-coolstore.apps.cloud-svc-tmm.vy75.p1.openshiftapps.com",
+    "staging-public-base-url": "https://products-v1-stage.apps.cloud-svc-tmm.vy75.p1.openshiftapps.com",
+    "production-public-base-url": "https://products-v1.apps.cloud-svc-tmm.vy75.p1.openshiftapps.com",
+    "application-plans": [
+        {
+            "system-name": "products-v1/basic",
+            "definition": "basic-plan.yml"
+        },
+        {
+            "system-name": "products-v1/extended",
+            "definition": "extended-plan.yml"
+        }
+    ],
+    "applications": [
+        {
+            "account": "test-dev",
+            "name": "Products V1",
+            "application-plan": "products-v1/basic",
+            "application-key": "user-key-products-v1"
+        }
+    ]
+}

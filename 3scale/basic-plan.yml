@@ -1,0 +1,20 @@
+---
+plan:
+  name: Products V1 API Basic Plan
+  state: published
+  setup_fee: 0.0
+  cost_per_month: 0.0
+  trial_period_days: 0
+  cancellation_period: 0
+  approval_required: false
+  system_name: products-v1/basic
+limits:
+- period: day
+  value: 600
+  metric_system_name: getapiproductid
+- period: hour
+  value: 25
+  metric_system_name: getapiproducts
+pricingrules: []
+plan_features: []
+metrics: []
