@@ -1,0 +1,1 @@
+RHOAM CI/CD Demo with 3scale operator: resources and metadata for Coolstore Products API
