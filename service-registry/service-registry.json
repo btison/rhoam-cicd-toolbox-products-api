@@ -1,0 +1,6 @@
+{
+    "artifact-id": "coolstore-products-api",
+    "group-id": "coolstore",
+    "version": "1.0.0",
+    "artifact-type": "OPENAPI"
+}
